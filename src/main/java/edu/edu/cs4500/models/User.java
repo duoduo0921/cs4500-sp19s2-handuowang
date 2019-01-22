@@ -6,6 +6,9 @@ public class User {
 	private String password;
 	private String firstName;
 	private String lastName;
+	public User(int id, String username, String password, String firstname, String lastname) {
+		// TODO Auto-generated constructor stub
+	}
 	// provide a public set and get method for each of the class variables above
 	// make sure to use proper naming conventions for Java methods, e.g.,
 	// methods should be camelcase. Here's an example using the firstName variable:
