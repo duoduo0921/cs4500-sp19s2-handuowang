@@ -25,10 +25,11 @@ public class UserService {
 	public User findUserById(
 		@PathVariable("userId") Integer id) {
 			for(User user: users) {
-				if(user.getId() == id) {
+				if(user.getId().equals(id)) {
 					return user;
-				}
+				} 
 			}
 		return null;
 	}
+	
 }
