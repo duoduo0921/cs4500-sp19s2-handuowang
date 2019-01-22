@@ -1,4 +1,4 @@
-package edu.neu.cs4500.controllers.hello;
+package edu.edu.cs4500.models;
 
 public class HelloObject {
 	private String message;
